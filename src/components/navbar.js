@@ -2,15 +2,17 @@ import React from "react";
 
 const Navbar = () => {
   return (
+
     <nav>
-      <div className="color"></div>
+      <div className="text"> Francisca Moore</div>
       <div className="color"></div>
       <div className="color"></div>
       <ul>
-        <li><a href=""></a>FRAN</li>
-        <li><a href=""></a>PROYECTOS</li>
-        <li><a href=""></a>CONTACTO</li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
       </ul>
+
     </nav>
   )
 };

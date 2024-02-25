@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #4C1A57, #BAB0D4);
+    background: linear-gradient(to bottom, #4C1A57, #9586bb);
 }
 nav::before{
     content: '';
@@ -28,6 +28,13 @@ nav::before{
     border-top: 1px solid #ffffff80;
     background: #ffffff1a;
     backdrop-filter: blur(10px);
+}
+.text{
+    position: relative;
+    margin-bottom: 7%;
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: 5em;
 }
 .color{
     position: absolute;
@@ -59,16 +66,16 @@ li{
 a{
     z-index: 2;
     position: relative;
-    top: 25px;
-    width: 100px;
-    height: 100px;
-    font-size: 5em;
-    background: #ffffff1a;
-    color: solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    font-size: xx-large;
+    background: #ffffff1a;
+    color: #fff;
     border: 1px solid #ffffff66;
     border-right: 1px solid #ffffff33;
     border-bottom: 1px solid #ffffff33;
@@ -80,3 +87,28 @@ a{
     transition: top 0.5s, z-index 0s, transform 0.5s;
     transition-delay: 0.5s 0.5s 0s;
 }
+a::before{
+    content: '';
+    width: 50px;
+    height: 100%;
+    background: #ffffff80;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(60deg) translateX(170px);
+    transition: 0.5s;
+}
+a{
+    z-index: 1;
+}
+a:hover{
+    z-index: 3;
+    top: -50px;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transform: translateY(50px);
+}
+a:hover::before{
+    transform: skewX(45deg) translateX(-150px);
+}
+
+
