@@ -9,6 +9,9 @@ body{
     height: 100vh;
     margin: 0;
 }
+li .bi{
+    font-size: 4em;
+}
 nav{
     position: absolute;
     width: 100%;
