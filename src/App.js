@@ -11,9 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
        <Navbar/>
-       <Jumbotron/>
-       <BodyCard/>
-       <Footer/>
+  
       </header>
     </div>
   );
