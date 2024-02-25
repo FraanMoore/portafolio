@@ -8,16 +8,18 @@ import Contact from './components/contact';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div>
+    <div>
         <Navbar />
+        </div>
+   /* <BrowserRouter> 
+      
         <Routes>
           <Route path="/AboutMe" element={<AboutMe/>} />
           <Route path="/Projects" element={<Projects/>} />
           <Route path="/Contact" element={<Contact/>} />
-        </Routes>
+        </Routes> 
       </div>
-    </BrowserRouter>
+   </BrowserRouter> */
   );
 }
 
