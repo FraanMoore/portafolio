@@ -1,11 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 
 const Navbar = () => {
-  return (
+ {/* const [screenSize, setScreenSize] = useState('');
 
-    <nav>
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth >= 1024) {
+        setScreenSize('large');
+      } else if (window.innerWidth >= 768 && window.innerWidth <= 1023) {
+        setScreenSize('medium');
+      } else {
+        setScreenSize('small');
+      }
+    }
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []); */}
+
+  return (
+    <nav /*className={`navbar-${screenSize}`}*/>
       <div className="fullname">
         Francisca Moore
       </div>
@@ -20,4 +38,5 @@ const Navbar = () => {
     </nav>
   )
 };
+
 export default Navbar;
