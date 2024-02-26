@@ -130,27 +130,43 @@ li .bi{
   }
 
 
-@media screen and (768px <= width <= 1200px) {
+@media screen and (768px <= width <= 1200px ) {
     /* Styles for medium screens */
     nav {
-      padding: 5%; /* Adjust padding for smaller screens */
+      padding:11%; /* Adjust padding for smaller screens */
+      flex-direction: column;
       
     }
     ul {
         flex-direction: column; /* Stack navigation items vertically */
+        padding: 0%;
         justify-content: center;
+    
       }
+    .fullname {
+        justify-content: center;
+    }
 
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (375px <= width <= 667px) {
     /* Styles for small screens */
     nav {
-      padding: 2%; /* Adjust padding for even smaller screens */
-    }
-    ul {
-      flex-direction: column; /* Stack navigation items vertically */
-    }
+        padding:3%; /* Adjust padding for smaller screens */
+        flex-direction: column;
+        
+      }
+      ul {
+          flex-direction: column; /* Stack navigation items vertically */
+          padding: 0%;
+          justify-content: center;
+      
+        }
+      .fullname {
+          justify-content: center;
+          text-align: center;
+      }
+  
   }
   
   /* Adjust other styles as necessary for responsiveness */
