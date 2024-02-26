@@ -11,6 +11,7 @@ body{
 }
 li .bi{
     font-size: 4em;
+    color: whitesmoke;
 }
 nav{
     position: absolute;
