@@ -66,7 +66,7 @@ li{
     list-style: none;
     -webkit-tap-highlight-color: transparent;
 }
-a{
+p{
     z-index: 2;
     position: relative;
     display: flex;
@@ -90,27 +90,27 @@ a{
     transition: top 0.5s, z-index 0s, transform 0.5s;
     transition-delay: 0.5s 0.5s 0s;
 }
-a::before{
+p::before{
     content: '';
     width: 50px;
     height: 100%;
-    background: #ffffff80;
+    background: #eaeaea80;
     position: absolute;
     top: 0;
     left: 0;
     transform: skewX(60deg) translateX(170px);
     transition: 0.5s;
 }
-a{
+p{
     z-index: 1;
 }
-a:hover{
+p:hover{
     z-index: 3;
     top: -50px;
     transition-delay: 0s, 0.5s, 0.5s;
     transform: translateY(50px);
 }
-a:hover::before{
+p:hover::before{
     transform: skewX(45deg) translateX(-150px);
 }
 
