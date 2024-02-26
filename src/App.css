@@ -9,17 +9,14 @@ body{
     height: 100vh;
     margin: 0;
 }
-li .bi{
-    font-size: 4em;
-    color: whitesmoke;
-}
 nav{
     position: absolute;
+    padding: 10%;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     background: linear-gradient(to bottom, #4C1A57, #9586bb);
 }
 nav::before{
@@ -32,13 +29,6 @@ nav::before{
     border-top: 1px solid #ffffff80;
     background: #ffffff1a;
     backdrop-filter: blur(10px);
-}
-.text{
-    position: relative;
-    margin-bottom: 7%;
-    color: whitesmoke;
-    font-family: fantasy;
-    font-size: 5em;
 }
 .color{
     position: absolute;
@@ -114,5 +104,27 @@ p:hover{
 p:hover::before{
     transform: skewX(45deg) translateX(-150px);
 }
+li .bi{
+    font-size: 4em;
+    color: whitesmoke;
+}
+.fullname {
+    position: relative;
+    margin-bottom: 20% !important;
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: 5em;
+  }
 
+@media (max-width: 768px) {
+    .fullname {
+      font-size: 3.5em; /* Reducir el tamaño de fuente para dispositivos medianos */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .fullname {
+      font-size: 2.5em; /* Reducir el tamaño de fuente para dispositivos pequeños */
+    }
+  }
 

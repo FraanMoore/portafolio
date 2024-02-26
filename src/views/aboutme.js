@@ -4,8 +4,9 @@ import React from "react";
 const AboutMe = () => {
   return (
 
-<div>
-     </div>
+    <div>
+      HELLO WORLD 
+    </div>
   )
 };
 export default AboutMe;
