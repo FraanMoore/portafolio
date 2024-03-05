@@ -92,7 +92,7 @@ li{
 }
 .indice::before{
     content: '';
-    width: 50px;
+    width: 20%;
     height: 100%;
     background: #eaeaea80;
     position: absolute;
@@ -121,7 +121,7 @@ li .bi{
     position: relative;
     overflow: visible !important; 
     color: whitesmoke;
-    font-family: fantasy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
     font-size: 5em;
     
   }
