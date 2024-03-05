@@ -8,6 +8,7 @@ import AboutMe from './views/aboutme';
 import Projects from './views/projects';
 import Contact from './views/contact';
 import Home from './views/home';
+import { Link } from 'react-router-dom';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path='/' element={<Navbar />} />
-          <Route path="/aboutmMe" element={<AboutMe />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
