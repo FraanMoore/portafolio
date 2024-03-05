@@ -4,7 +4,10 @@ MORADO OBSCURO - #4C1A57
 CALIPSO - #00A8AA
 AMARILLO - #F0F600 
 */
+
 body{
+    height: 100vh;
+    margin: 0;
     background: linear-gradient( #9586bb, #4C1A57, #00A8AA, #F0F600);
     background-repeat: no-repeat;
     background-attachment: fixed;

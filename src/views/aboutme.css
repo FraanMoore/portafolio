@@ -1,0 +1,20 @@
+/*COLORES
+MORADO CLARO - #BAB0D4
+MORADO OBSCURO - #4C1A57
+CALIPSO - #00A8AA
+AMARILLO - #F0F600 
+*/
+
+#aboutmeContainer {
+    width:50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; /* Agrega margen automático para centrar horizontalmente */
+   
+}
+
+#avatarImg{
+    
+}

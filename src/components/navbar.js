@@ -30,9 +30,9 @@ const Navbar = () => {
       <div className="color"></div>
       <div className="color"></div>
       <ul>
-        <li><p> <Link to="/AboutMe" > <i class="bi bi-file-earmark-person"></i> </Link> </p> </li>
-        <li><p> <Link to="/" > <i class="bi bi-file-code"></i> </Link> </p> </li>
-        <li><p> <Link to="/" > <i class="bi bi-envelope"></i> </Link> </p> </li>
+        <li><p className="indice"> <Link to="/AboutMe" > <i className="bi bi-file-earmark-person"></i> </Link> </p> </li>
+        <li><p className="indice"> <Link to="/" > <i className="bi bi-file-code"></i> </Link> </p> </li>
+        <li><p className="indice"> <Link to="/" > <i className="bi bi-envelope"></i> </Link> </p> </li>
       </ul>
 
     </nav>
