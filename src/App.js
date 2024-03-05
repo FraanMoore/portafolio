@@ -1,22 +1,27 @@
-
-import './App.css';
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/navbar';
-import Jumbotron from './components/jumbotron';
-import BodyCard from './components/bodyCards';
-import Footer from './components/footer';
+import AboutMe from './components/aboutme';
+import Projects from './components/projects';
+import Contact from './components/contact';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <Navbar/>
-       <Jumbotron/>
-       <BodyCard/>
-       <Footer/>
-      </header>
-    </div>
+    <div>
+        <Navbar />
+        </div>
+   /* <BrowserRouter> 
+      
+        <Routes>
+          <Route path="/AboutMe" element={<AboutMe/>} />
+          <Route path="/Projects" element={<Projects/>} />
+          <Route path="/Contact" element={<Contact/>} />
+        </Routes> 
+      </div>
+   </BrowserRouter> */
   );
 }
 
 export default App;
+
