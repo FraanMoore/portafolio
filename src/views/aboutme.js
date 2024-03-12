@@ -30,8 +30,8 @@ const AboutMe = () => {
           </div>
           <div id="textAboutme" className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">Francisca Moore</h5>
-              <p>Fullstack Developer y administradora turística y hotelera</p>
+             <h5 className="card-title">Hola, soy Fran!</h5>
+              <p className="card-proffesion">Fullstack Developer y Administradora Turística y Hotelera</p>
               <p>{AboutMe}</p>
             </div>
           </div>
