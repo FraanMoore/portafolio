@@ -7,8 +7,7 @@ import Navbar from './components/navbar';
 import AboutMe from './views/aboutme';
 import Projects from './views/projects';
 import Contact from './views/contact';
-import Home from './views/home';
-import { Link } from 'react-router-dom';
+
 
 
 function App() {
