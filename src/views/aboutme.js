@@ -20,7 +20,7 @@ const AboutMe = () => {
 
   }, [])
   return (
-<div>
+<div className="container">
 <Link to={"/"} id="backButton" ><i className="bi bi-arrow-left"></i></Link>
 
       <div id="aboutmeContainer" className="card mb-3">

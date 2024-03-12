@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []); */
 
   return (
-    <nav /*className={`navbar-${screenSize}`}*/>
+    <nav className="container"/*className={`navbar-${screenSize}`}*/>
       <div className="fullname">
         Francisca Moore
       </div>

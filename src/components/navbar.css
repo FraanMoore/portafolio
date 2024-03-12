@@ -19,10 +19,10 @@ AMARILLO - #F0F600
 
 nav{
     position: relative;
-    padding: 10%;   
+  padding: 10%;   
     margin: 12%;
- /* width: 100%;
-    height: 100%; */
+  width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
    /* background: linear-gradient(to bottom, #9586bb, #4C1A57);*/
