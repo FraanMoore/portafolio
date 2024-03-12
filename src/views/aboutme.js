@@ -6,7 +6,6 @@ import Avatar from '../assets/avatar.png';
 const AboutMe = () => {
 
   const [AboutMe, setAboutmeText] = useState("");
-  //  const [characters, setCharacters] = useState([]);
 
   const getAboutMeText = () => {
     fetch("http://localhost:3000/aboutme.txt")
