@@ -28,11 +28,38 @@ const Navbar = () => {
       </div>
       <div className="color"></div>
       <div className="color"></div>
+
       <ul>
         <li><p className="indice"> <Link to="/AboutMe" > <i className="bi bi-file-earmark-person"></i> </Link> </p> </li>
         <li><p className="indice"> <Link to="/" > <i className="bi bi-file-code"></i> </Link> </p> </li>
         <li><p className="indice"> <Link to="/" > <i className="bi bi-envelope"></i> </Link> </p> </li>
       </ul>
+
+      {/*
+      <ul>
+        <li>
+      <p>
+            <Link to="/AboutMe" className="nav-lin  k">
+              <i className="bi bi-file-earmark-person"></i>
+            </Link>
+            </p>
+        </li>
+        <li>
+        <p>
+             <Link to="/Projects" className="nav-link">
+              <i className="bi bi-file-code"></i>
+            </Link>
+            </p>
+        </li>
+        <li>
+        <p>
+            <Link to="/Contact" className="nav-link">
+              <i className="bi bi-envelope"></i>
+            </Link>
+            </p>
+        </li>
+      </ul>
+  */}
 
     </nav>
   )
