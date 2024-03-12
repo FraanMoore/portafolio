@@ -13,12 +13,14 @@ body{
     background-attachment: fixed;
 
 }
+.container{
+    padding: 5%;
+}
 
 #backButton{
     border: none;
     font-size: xx-large;
     color: white;
-
 }
 
 

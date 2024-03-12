@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 
 
 const Navbar = () => {
- {/* const [screenSize, setScreenSize] = useState('');
+ /* const [screenSize, setScreenSize] = useState('');
 
   useEffect(() => {
     function handleResize() {
@@ -20,10 +19,10 @@ const Navbar = () => {
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []); */}
+  }, []); */
 
   return (
-    <nav /*className={`navbar-${screenSize}`}*/>
+    <nav className="container"/*className={`navbar-${screenSize}`}*/>
       <div className="fullname">
         Francisca Moore
       </div>
