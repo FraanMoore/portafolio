@@ -24,7 +24,7 @@ const AboutMe = () => {
 <Link to={"/"} id="backButton" ><i className="bi bi-arrow-left"></i></Link>
 
       <div id="aboutmeContainer" className="card mb-3">
-        <div className="row g-0" style={{justifyContent: "center"}}>
+        <div className="row g-0" style={{justifyContent: "center", alignItems: "center"}}>
           <div id="avatarImg" className="col-md-4">
             <img  src={Avatar} className="img-fluid rounded-start" alt=""/>
           </div>

@@ -18,6 +18,9 @@ body{
     border: none;
     font-size: xx-large;
     color: white;
+    padding: 5%;
+    display: flex;
+    height: 5%;
 
 }
 
